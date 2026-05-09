@@ -63,7 +63,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     // Needed for collectAsStateWithLifecycle() in Composables.
-    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+    implementation(libs.androidx.lifecycle.runtime.compose)
 
     // --- Navigation & ViewModel in Compose ---
     implementation(libs.androidx.navigation.compose)
